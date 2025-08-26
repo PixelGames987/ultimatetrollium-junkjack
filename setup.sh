@@ -27,6 +27,10 @@ fi
 
 echo -e "\n[*] All dependencies installed.\n"
 
+echo -e "\n[*] Building dhcp-starvation.c\n"
+gcc -o .scripts/dhcp-starvation .scripts/dhcp-starvation.c
+echo -e "\n[*] dhcp-starvation.c built."
+
 # This makes the connection between the raspberry pi and a phone more stable
 echo -e "\n[*] Disabling wlan0 power management...\n"
 
