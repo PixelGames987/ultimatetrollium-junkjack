@@ -14,5 +14,6 @@ cd ultimatetrollium-junkjack
 
 The setup script installs:
 ```
-Nothing for now
+curl, wget, nmap
+tailscale (optional)
 ```
