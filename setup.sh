@@ -41,6 +41,8 @@ echo -e "export INTERFACE=${interface}" >> ~/.bashrc
 
 source ~/.bashrc
 
+mkdir logs
+
 echo -e "\n[*] Restarting NetworkManager... This will temporarily disconnect the raspberry pi from your hotspot\n"
 sudo systemctl restart NetworkManager
 
